@@ -1,4 +1,4 @@
-# 🎓 Educational Platform – UML & OOP Project
+# 🎓 Online Course Platform – UML & OOP Project
 
 This repository contains the design and implementation of a basic structure for an **educational platform** using **Object-Oriented Programming (OOP)** and **UML class diagrams**.
 
