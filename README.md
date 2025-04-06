@@ -4,8 +4,8 @@ This repository contains the design and implementation of a basic structure for 
 
 The system models a platform where:
 
-- Teachers can create and manage courses.
-- Students can enroll in courses and participate in sessions.
+- We can create and manage courses.
+- We can enroll in courses and participate in sessions.
 - Evaluations and certificates are generated based on participation and progress.
 
 The main focus of the project is on understanding class design, modeling relationships, and applying software engineering principles to simulate a real-world educational environment.
