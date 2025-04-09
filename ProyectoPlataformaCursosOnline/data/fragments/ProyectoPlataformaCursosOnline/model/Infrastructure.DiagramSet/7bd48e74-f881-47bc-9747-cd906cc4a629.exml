@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ProyectoPlataformaCursosOnline" version="4">
+  <OBJECT>
+    <ID name="ProyectoPlataformaCursosOnline" mc="Infrastructure.DiagramSet" uid="7bd48e74-f881-47bc-9747-cd906cc4a629"/>
+    <PID name="ProyectoPlataformaCursosOnline" mc="Standard.Project" uid="ef202b46-88b6-4d05-8ec6-8fb5c10b5683"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[ProyectoPlataformaCursosOnline]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

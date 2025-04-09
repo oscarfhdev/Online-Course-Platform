@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="proyectoplataformacursosonline" version="4">
+  <OBJECT>
+    <ID name="proyectoplataformacursosonline" mc="Standard.Package" uid="4c0e9992-831e-4168-b5f0-5d983878ea00"/>
+    <PID name="ProyectoPlataformaCursosOnline" mc="Standard.Project" uid="ef202b46-88b6-4d05-8ec6-8fb5c10b5683"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[proyectoplataformacursosonline]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Persona" mc="Standard.Class" uid="c8de0fc7-187e-4b27-830f-e05ff1ad88e0"/>
+        <COMPID name="Profesor" mc="Standard.Class" uid="f7dd668f-340c-441d-9a9e-02c51a4fac09"/>
+        <COMPID name="Alumno" mc="Standard.Class" uid="f1695107-3fa4-44ac-869d-c05bdc1ba408"/>
+        <COMPID name="Curso" mc="Standard.Class" uid="0fda748a-1093-4e7e-9ca4-738c20d7c254"/>
+        <COMPID name="CursoAlumno" mc="Standard.Class" uid="90530bdf-a232-4b63-919e-5aad6be64085"/>
+        <COMPID name="CursoProfesor" mc="Standard.Class" uid="552cb10d-e289-4b94-b7b6-e32607e2335e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="PlataformaCursosOnline" mc="Standard.ClassDiagram" uid="344d9cc4-64b6-41c7-bc7f-8f6338a078c1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
