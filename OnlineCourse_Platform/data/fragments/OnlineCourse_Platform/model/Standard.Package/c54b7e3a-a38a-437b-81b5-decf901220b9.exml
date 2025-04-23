@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="onlinecourse_platform" version="4">
+  <OBJECT>
+    <ID name="onlinecourse_platform" mc="Standard.Package" uid="c54b7e3a-a38a-437b-81b5-decf901220b9"/>
+    <PID name="OnlineCourse_Platform" mc="Standard.Project" uid="db2df025-889c-4df2-8e5d-611b07788326"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[onlinecourse_platform]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Persona" mc="Standard.Class" uid="c00d96ba-2d76-4a73-962e-aaed03cdcb00"/>
+        <COMPID name="Alumno" mc="Standard.Class" uid="44217e6e-d78c-483b-92c6-7dd1f6c8d794"/>
+        <COMPID name="Profesor" mc="Standard.Class" uid="0d296b73-fdff-4331-995d-a2c094a29502"/>
+        <COMPID name="Curso" mc="Standard.Class" uid="22e94a6e-7fd4-41a3-8490-8c96aa40b328"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Online_Course_Platform" mc="Standard.ClassDiagram" uid="2f22bc1d-10ba-4613-af35-940d4cc7a0ff"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

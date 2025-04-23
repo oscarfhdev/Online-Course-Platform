@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="OnlineCourse_Platform" version="4">
+  <OBJECT>
+    <ID name="OnlineCourse_Platform" mc="Standard.Project" uid="db2df025-889c-4df2-8e5d-611b07788326"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[OnlineCourse_Platform]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="onlinecourse_platform" mc="Standard.Package" uid="c54b7e3a-a38a-437b-81b5-decf901220b9"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="OnlineCourse_Platform" mc="Infrastructure.DiagramSet" uid="5ee0e3a2-728c-40e0-ad65-43b1f0e9ed07"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
