@@ -1,0 +1,19 @@
+[ {
+  "nombre" : "Adrian",
+  "apellidos" : "Raña Escote",
+  "fechaNacimiento" : "2006-01-01",
+  "edad" : 19,
+  "dni" : "14251025J",
+  "email" : "adrire@gmail.com",
+  "curso" : {
+    "nombre" : "Dam",
+    "fechaInicio" : "2024-09-20",
+    "fechaFin" : "2025-09-20",
+    "horasDuracion" : 3500,
+    "presencial" : true
+  },
+  "tutor" : null,
+  "becado" : true,
+  "evaluacion" : 0.0,
+  "certificado" : false
+} ]

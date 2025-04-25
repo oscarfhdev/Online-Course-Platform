@@ -1,0 +1,17 @@
+[ {
+  "nombre" : "Teo",
+  "apellidos" : "Rojas Mata",
+  "fechaNacimiento" : "1989-03-01",
+  "edad" : 36,
+  "dni" : "25413014V",
+  "email" : "teorm@outlook.es",
+  "titulacion" : "Ingeniería",
+  "especialidad" : "Infomática",
+  "curso" : {
+    "nombre" : "Dam",
+    "fechaInicio" : "2024-09-20",
+    "fechaFin" : "2025-09-20",
+    "horasDuracion" : 3500,
+    "presencial" : true
+  }
+} ]

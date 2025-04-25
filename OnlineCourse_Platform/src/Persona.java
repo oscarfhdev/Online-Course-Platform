@@ -1,6 +1,7 @@
+import java.time.LocalDate;
 import java.util.Date;
 
-public abstract class Persona {
+public class Persona {
     /**
      * AStributos de la superclase Persona.
      * Estos atributos serásn heredados por las subclases Alumno y Profesor.
@@ -10,7 +11,7 @@ public abstract class Persona {
 
     private String apellidos;
 
-    private Date fechaNacimiento;
+    private LocalDate fechaNacimiento;
 
     private int edad;
 
@@ -27,13 +28,17 @@ public abstract class Persona {
      * @param dni Dni de la persona.
      * @param email Email de la persona.
      */
-    public Persona(final String nombre, final String apellidos, final Date fechaNacimiento, final int edad, final String dni, final String email) {
+    public Persona(final String nombre, final String apellidos, final LocalDate fechaNacimiento, final int edad, final String dni, final String email) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.fechaNacimiento = fechaNacimiento;
         this.edad = edad;
         this.dni = dni;
         this.email = email;
+    }
+
+    public Persona() {
+
     }
 
     public String getNombre() {
@@ -46,7 +51,7 @@ public abstract class Persona {
         return apellidos;
     }
 
-    public Date getFechaNacimiento() {
+    public LocalDate getFechaNacimiento() {
         // TODO Auto-generated return
         return fechaNacimiento;
     }
@@ -74,7 +79,7 @@ public abstract class Persona {
         this.apellidos = apellidos;
     }
 
-    public void setFechaNacimiento(Date fechaNacimiento) {
+    public void setFechaNacimiento(LocalDate fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
 
@@ -88,5 +93,16 @@ public abstract class Persona {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", fechaNacimiento=" + fechaNacimiento +
+                ", edad=" + edad +
+                ", dni='" + dni + '\'' +
+                ", email='" + email;
     }
 }

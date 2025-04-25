@@ -1,4 +1,4 @@
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Profesor extends Persona {
     /**
@@ -23,19 +23,23 @@ public class Profesor extends Persona {
      * @param titulacion Titulación del profesor.
      * @param especialidad Especialidad del profesor.
      */
-    public Profesor(final String nombre, final String apellidos, final Date fechaNacimiento, final int edad, final String dni, final String email , final String titulacion, final String especialidad) {
+    public Profesor(final String nombre, final String apellidos, final LocalDate fechaNacimiento, final int edad, final String dni, final String email , final String titulacion, final String especialidad) {
         super(nombre, apellidos, fechaNacimiento, edad, dni, email);
         this.titulacion = titulacion;
         this.especialidad = especialidad;
         this.curso = null;
     }
 
+public Profesor(){
+
+}
+
     public String getTitulacion() {
         // TODO Auto-generated return
         return titulacion;
     }
 
-    public String getEspecializacion() {
+    public String getEspecialidad() {
         // TODO Auto-generated return
         return especialidad;
     }
@@ -55,5 +59,25 @@ public class Profesor extends Persona {
 
     public void setCurso(Curso curso) {
         this.curso = curso;
+    }
+
+    public void imparteCurso(Curso curso){
+        if (this.curso == null){
+            this.curso = curso;
+            System.out.println("Profesor "+getNombre()+" "+getApellidos()+" ahora imparte el curso "+curso.getNombre());
+        }else {
+            System.out.println("Profesor "+getNombre()+" "+getApellidos()+ " no puede impartir el curso "+curso.getNombre()+" porque ya está impartiendo otro curso.");
+        }
+    }
+
+
+    @Override
+    public String toString() {
+        String profesor = "Profesor" +
+                "titulacion='" + titulacion + '\'' +
+                ", especialidad='" + especialidad + '\'' +
+                ", curso=" + curso;
+        return super.toString()+profesor;
+
     }
 }
