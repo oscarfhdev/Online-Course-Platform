@@ -1,17 +1,17 @@
 [ {
-  "nombre" : "Teo",
-  "apellidos" : "Rojas Mata",
-  "fechaNacimiento" : "1989-03-01",
-  "edad" : 36,
-  "dni" : "25413014V",
-  "email" : "teorm@outlook.es",
-  "titulacion" : "Ingeniería",
-  "especialidad" : "Infomática",
+  "nombre" : "Pepe",
+  "apellidos" : "sanchez",
+  "fechaNacimiento" : "1985-11-20",
+  "edad" : 45,
+  "dni" : "1122V",
+  "email" : "pepe@outlook.es",
+  "titulacion" : "Ingeniuería",
+  "especialidad" : "Informática",
   "curso" : {
     "nombre" : "Dam",
     "fechaInicio" : "2024-09-20",
     "fechaFin" : "2025-09-20",
-    "horasDuracion" : 3500,
+    "horasDuracion" : 2500,
     "presencial" : true
   }
 } ]

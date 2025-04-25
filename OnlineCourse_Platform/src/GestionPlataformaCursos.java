@@ -1,3 +1,4 @@
+import Excepciones.ElementoNoEncontrado;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -198,6 +199,7 @@ public class GestionPlataformaCursos {
                         } while (cursoImpartir == null);
 
                         profesorImpartir.imparteCurso(cursoImpartir);
+
 
                         break;
 
@@ -421,7 +423,7 @@ public class GestionPlataformaCursos {
      * @param nombreCurso Nombre del curso a buscar.
      * @return
      */
-    public static Curso buscarCurso(List<Curso> cursos, String nombreCurso){
+    public static Curso buscarCurso(List<Curso> cursos, String nombreCurso) throws ElementoNoEncontrado{
 
         boolean cursoEncontrado = false;
 
@@ -434,11 +436,8 @@ public class GestionPlataformaCursos {
             }
         }
 
-        if (!cursoEncontrado){
-            System.out.println("El curso no se encuentra en la lista.");
-        }
+        throw new ElementoNoEncontrado("El curso no se encuentra en la lista.");
 
-        return null;
     }
 
     /**
@@ -449,7 +448,7 @@ public class GestionPlataformaCursos {
      * @param apellidosAlumno Apellidos de alumno a buscar.
      * @return
      */
-    public static Alumno buscarAlumno(List<Alumno> alumnos, String nombreALumno, String apellidosAlumno){
+    public static Alumno buscarAlumno(List<Alumno> alumnos, String nombreALumno, String apellidosAlumno) throws ElementoNoEncontrado {
 
         boolean alumnoEncontrado = false;
 
@@ -461,10 +460,7 @@ public class GestionPlataformaCursos {
             }
         }
 
-        if (!alumnoEncontrado){
-            System.out.println("El alumno no se encuentra en la lista.");
-        }
-        return null;
+        throw new ElementoNoEncontrado("El alumno no se encuentra en la lista.");
     }
 
     /**
@@ -475,7 +471,7 @@ public class GestionPlataformaCursos {
      * @param apellidosPorfesor Apellidos de profesor a buscar.
      * @return
      */
-    public static Profesor buscarProfesor(List<Profesor> profesores, String nombreProfesor, String apellidosPorfesor){
+    public static Profesor buscarProfesor(List<Profesor> profesores, String nombreProfesor, String apellidosPorfesor) throws ElementoNoEncontrado{
 
         boolean profesorEncontrado = false;
 
@@ -487,10 +483,8 @@ public class GestionPlataformaCursos {
             }
         }
 
-        if (!profesorEncontrado){
-            System.out.println("El profesor no se encuentra en la lista.");
-        }
-        return null;
+        throw new ElementoNoEncontrado("El profesor no se encuentra en la lista.");
+
     }
 
 

@@ -30,9 +30,9 @@ public class Profesor extends Persona {
         this.curso = null;
     }
 
-public Profesor(){
+    public Profesor(){
 
-}
+    }
 
     public String getTitulacion() {
         // TODO Auto-generated return

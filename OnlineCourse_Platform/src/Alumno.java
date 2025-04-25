@@ -137,7 +137,7 @@ public class Alumno extends Persona {
         if (getCurso() == null){
             this.curso = curso;
             System.out.println("Alumno "+getNombre()+" "+getApellidos()+ " inscrito en el curso "+curso.getNombre());
-            if (tutor.getCurso() == curso){
+            if (tutor.getCurso().getNombre().equalsIgnoreCase(curso.getNombre())){
                 this.tutor = tutor;
                 System.out.println("Se ha asignado el profesor "+tutor.getNombre()+" "+tutor.getApellidos());
             }else {
@@ -155,15 +155,14 @@ public class Alumno extends Persona {
      */
     public void finalizarCurso(Curso curso){
         Scanner sc = new Scanner(System.in);
-        float evaluacion;
-        if (getCurso() == curso){
+        if (getCurso().getNombre().equalsIgnoreCase(curso.getNombre())){
             System.out.println("Introduce la evaluación total del curso: ");
-            evaluacion = sc.nextFloat();
-            setEvaluacion(evaluacion);
-            if (evaluacion <= 5.0){
-                setCertificado(true);
+            float evaluacion = sc.nextFloat();
+            this.setEvaluacion(evaluacion);
+            if (evaluacion >= 5.0){
+                this.setCertificado(true);
             }else {
-                setCertificado(false);
+                this.setCertificado(false);
             }
             System.out.println("Curso finalizado con éxito.");
         }else {

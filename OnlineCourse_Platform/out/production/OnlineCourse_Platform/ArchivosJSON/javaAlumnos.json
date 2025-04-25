@@ -1,18 +1,34 @@
 [ {
   "nombre" : "Adrian",
-  "apellidos" : "Raña Escote",
-  "fechaNacimiento" : "2006-01-01",
-  "edad" : 19,
-  "dni" : "14251025J",
-  "email" : "adrire@gmail.com",
+  "apellidos" : "Raña",
+  "fechaNacimiento" : "2000-01-01",
+  "edad" : 25,
+  "dni" : "14J",
+  "email" : "adri@gmail.com",
   "curso" : {
     "nombre" : "Dam",
     "fechaInicio" : "2024-09-20",
     "fechaFin" : "2025-09-20",
-    "horasDuracion" : 3500,
+    "horasDuracion" : 2500,
     "presencial" : true
   },
-  "tutor" : null,
+  "tutor" : {
+    "nombre" : "Pepe",
+    "apellidos" : "sanchez",
+    "fechaNacimiento" : "1985-11-20",
+    "edad" : 45,
+    "dni" : "1122V",
+    "email" : "pepe@outlook.es",
+    "titulacion" : "Ingeniuería",
+    "especialidad" : "Informática",
+    "curso" : {
+      "nombre" : "Dam",
+      "fechaInicio" : "2024-09-20",
+      "fechaFin" : "2025-09-20",
+      "horasDuracion" : 2500,
+      "presencial" : true
+    }
+  },
   "becado" : true,
   "evaluacion" : 0.0,
   "certificado" : false
