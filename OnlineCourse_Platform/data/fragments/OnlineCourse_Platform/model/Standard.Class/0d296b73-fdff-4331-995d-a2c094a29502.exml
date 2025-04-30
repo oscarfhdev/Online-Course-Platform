@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Profesor" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Entidades.Profesor" version="4">
   <OBJECT>
-    <ID name="Profesor" mc="Standard.Class" uid="0d296b73-fdff-4331-995d-a2c094a29502"/>
+    <ID name="Entidades.Profesor" mc="Standard.Class" uid="0d296b73-fdff-4331-995d-a2c094a29502"/>
     <PID name="onlinecourse_platform" mc="Standard.Package" uid="c54b7e3a-a38a-437b-81b5-decf901220b9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Profesor]]></ATT>
+      <ATT name="Name"><![CDATA[Entidades.Profesor]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="Profesor" mc="Standard.Operation" uid="e0f8ab0d-6611-40da-9cf5-6c0e6c8f3e63"/>
+          <ID name="Entidades.Profesor" mc="Standard.Operation" uid="e0f8ab0d-6611-40da-9cf5-6c0e6c8f3e63"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,7 +25,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Profesor]]></ATT>
+            <ATT name="Name"><![CDATA[Entidades.Profesor]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -190,7 +190,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <ID name="Curso" mc="Standard.Class" uid="22e94a6e-7fd4-41a3-8490-8c96aa40b328"/>
+                    <ID name="Entidades.Curso" mc="Standard.Class" uid="22e94a6e-7fd4-41a3-8490-8c96aa40b328"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -307,7 +307,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <ID name="Curso" mc="Standard.Class" uid="22e94a6e-7fd4-41a3-8490-8c96aa40b328"/>
+                    <ID name="Entidades.Curso" mc="Standard.Class" uid="22e94a6e-7fd4-41a3-8490-8c96aa40b328"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -399,7 +399,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Persona" mc="Standard.Class" uid="c00d96ba-2d76-4a73-962e-aaed03cdcb00"/>
+              <ID name="Entidades.Persona" mc="Standard.Class" uid="c00d96ba-2d76-4a73-962e-aaed03cdcb00"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

@@ -13,7 +13,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <LINK relation="Represented">
-        <ID name="Persona" mc="Standard.Class" uid="c00d96ba-2d76-4a73-962e-aaed03cdcb00"/>
+        <ID name="Entidades.Persona" mc="Standard.Class" uid="c00d96ba-2d76-4a73-962e-aaed03cdcb00"/>
         <REFOBJ>
           <ID name="nombre" mc="Standard.Attribute" uid="6671ca9a-4b24-4561-9c99-ae1a40ea9bec"/>
         </REFOBJ>
@@ -33,7 +33,7 @@
           <ID name="email" mc="Standard.Attribute" uid="a71d1be6-f2a4-4ddd-9aad-cfd6bbd3a2c0"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="Persona" mc="Standard.Operation" uid="8abdb8d7-7196-402b-877a-795f96d85b22"/>
+          <ID name="Entidades.Persona" mc="Standard.Operation" uid="8abdb8d7-7196-402b-877a-795f96d85b22"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="getNombre" mc="Standard.Operation" uid="e3a4485f-4744-4f9f-82ef-378944f65941"/>
@@ -53,7 +53,7 @@
         <REFOBJ>
           <ID name="getEmail" mc="Standard.Operation" uid="34e7587b-a40b-4ea0-8b0c-31f2170ecccf"/>
         </REFOBJ>
-        <ID name="Alumno" mc="Standard.Class" uid="44217e6e-d78c-483b-92c6-7dd1f6c8d794"/>
+        <ID name="Entidades.Alumno" mc="Standard.Class" uid="44217e6e-d78c-483b-92c6-7dd1f6c8d794"/>
         <REFOBJ>
           <ID name="Generalization" mc="Standard.Generalization" uid="19d537e3-8ce5-4ed4-9885-c17caf086592"/>
         </REFOBJ>
@@ -73,13 +73,13 @@
           <ID name="certificado" mc="Standard.Attribute" uid="40c01d70-fb50-43f9-a19b-70202b04b019"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="Alumno" mc="Standard.Operation" uid="bc0e9147-a37e-4bf4-a726-90df290d3cde"/>
+          <ID name="Entidades.Alumno" mc="Standard.Operation" uid="bc0e9147-a37e-4bf4-a726-90df290d3cde"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="Alumno" mc="Standard.Operation" uid="8751ebc8-6442-4e89-9f13-773f9a94d657"/>
+          <ID name="Entidades.Alumno" mc="Standard.Operation" uid="8751ebc8-6442-4e89-9f13-773f9a94d657"/>
         </REFOBJ>
-        <ID name="Profesor" mc="Standard.Class" uid="0d296b73-fdff-4331-995d-a2c094a29502"/>
-        <ID name="Curso" mc="Standard.Class" uid="22e94a6e-7fd4-41a3-8490-8c96aa40b328"/>
+        <ID name="Entidades.Profesor" mc="Standard.Class" uid="0d296b73-fdff-4331-995d-a2c094a29502"/>
+        <ID name="Entidades.Curso" mc="Standard.Class" uid="22e94a6e-7fd4-41a3-8490-8c96aa40b328"/>
         <REFOBJ>
           <ID name="Generalization" mc="Standard.Generalization" uid="77173f3f-9d9b-4d4a-b435-27f54d3021b7"/>
         </REFOBJ>
@@ -111,7 +111,7 @@
           <ID name="curso" mc="Standard.Attribute" uid="ce8e62e6-e792-4b54-9329-5552b705ec87"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="Profesor" mc="Standard.Operation" uid="e0f8ab0d-6611-40da-9cf5-6c0e6c8f3e63"/>
+          <ID name="Entidades.Profesor" mc="Standard.Operation" uid="e0f8ab0d-6611-40da-9cf5-6c0e6c8f3e63"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="getTitulacion" mc="Standard.Operation" uid="23a70c8e-d779-4fb9-bb93-430abcb433eb"/>
@@ -156,7 +156,7 @@
           <ID name="presencial" mc="Standard.Attribute" uid="cbddba03-e0fd-467d-9601-6b4bc5321179"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="Curso" mc="Standard.Operation" uid="92be9515-8c56-4d70-a30b-def4bf90dfe2"/>
+          <ID name="Entidades.Curso" mc="Standard.Operation" uid="92be9515-8c56-4d70-a30b-def4bf90dfe2"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="getFechaInicio" mc="Standard.Operation" uid="23582f30-13d2-4948-8d6d-471df9f38f32"/>

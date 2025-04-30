@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Entidades","l":"Alumno"},{"p":"Entidades","l":"Curso"},{"p":"Excepciones","l":"ElementoNoEncontrado"},{"p":"Main","l":"GestionPlataformaCursos"},{"p":"Entidades","l":"Persona"},{"p":"Entidades","l":"Profesor"}];updateSearchResults();

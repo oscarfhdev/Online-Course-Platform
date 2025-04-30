@@ -1,35 +1,45 @@
 [ {
-  "nombre" : "Adrian",
-  "apellidos" : "Raña",
+  "nombre" : "Manuel",
+  "apellidos" : "Ruiz Leon",
   "fechaNacimiento" : "2000-01-01",
   "edad" : 25,
-  "dni" : "14J",
-  "email" : "adri@gmail.com",
-  "curso" : {
+  "dni" : "14785421N",
+  "email" : "manurl@gmail.com",
+  "cursos" : [ {
     "nombre" : "Dam",
     "fechaInicio" : "2024-09-20",
     "fechaFin" : "2025-09-20",
-    "horasDuracion" : 2500,
-    "presencial" : true
-  },
+    "horasDuracion" : 3600,
+    "presencial" : true,
+    "evaluacion" : 0.0
+  } ],
+  "cursosRealizados" : [ ],
   "tutor" : {
     "nombre" : "Pepe",
-    "apellidos" : "sanchez",
-    "fechaNacimiento" : "1985-11-20",
-    "edad" : 45,
-    "dni" : "1122V",
-    "email" : "pepe@outlook.es",
-    "titulacion" : "Ingeniuería",
+    "apellidos" : "Sanchez Marti",
+    "fechaNacimiento" : "1985-07-11",
+    "edad" : 40,
+    "dni" : "36985214N",
+    "email" : "pepesm@outlook.es",
+    "titulacion" : "Ingeniería",
     "especialidad" : "Informática",
     "curso" : {
       "nombre" : "Dam",
       "fechaInicio" : "2024-09-20",
       "fechaFin" : "2025-09-20",
-      "horasDuracion" : 2500,
-      "presencial" : true
+      "horasDuracion" : 3600,
+      "presencial" : true,
+      "evaluacion" : 0.0
     }
-  },
-  "becado" : true,
-  "evaluacion" : 0.0,
-  "certificado" : false
+  }
+}, {
+  "nombre" : "Marta",
+  "apellidos" : "Ruiz Trigal",
+  "fechaNacimiento" : "2000-01-01",
+  "edad" : 25,
+  "dni" : "14872015F",
+  "email" : "martart@gmail.com",
+  "cursos" : [ ],
+  "cursosRealizados" : [ ],
+  "tutor" : null
 } ]

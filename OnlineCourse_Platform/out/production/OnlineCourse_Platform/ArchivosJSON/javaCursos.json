@@ -2,6 +2,14 @@
   "nombre" : "Dam",
   "fechaInicio" : "2024-09-20",
   "fechaFin" : "2025-09-20",
-  "horasDuracion" : 2500,
-  "presencial" : true
+  "horasDuracion" : 3600,
+  "presencial" : true,
+  "evaluacion" : 0.0
+}, {
+  "nombre" : "Smr",
+  "fechaInicio" : "2024-09-20",
+  "fechaFin" : "2025-09-20",
+  "horasDuracion" : 3200,
+  "presencial" : false,
+  "evaluacion" : 0.0
 } ]
