@@ -31,3 +31,7 @@ Throughout this project, we explored the fundamentals and application of softwar
 - **Generated Java code** from our diagrams and enhanced it with real logic.
 - Improved our ability to **present technical work**, explain design decisions, and document the process clearly.
 
+---
+
+## ⏯️ Computer Presentation
+- [Plataforma de Cursos Online](https://www.canva.com/design/DAGkIDdIVkM/vd1MSf2jlIA0s9AfTuEwLg/edit?utm_content=DAGkIDdIVkM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
