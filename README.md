@@ -33,5 +33,6 @@ Throughout this project, we explored the fundamentals and application of softwar
 
 ---
 
-## ⏯️ Computer Presentation
-- [Plataforma de Cursos Online](https://www.canva.com/design/DAGkIDdIVkM/vd1MSf2jlIA0s9AfTuEwLg/edit?utm_content=DAGkIDdIVkM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+## ⏯️ Computer Presentation & Documents
+- [Plataforma de Cursos Online - Canva](https://www.canva.com/design/DAGkIDdIVkM/vd1MSf2jlIA0s9AfTuEwLg/edit?utm_content=DAGkIDdIVkM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Plataforma de Cursos Online - Document](https://docs.google.com/document/d/1l6R0W-VExX22ai7i4B3dUTuVREGgkxCzC1KNqRwmp_s/edit?usp=sharing)
