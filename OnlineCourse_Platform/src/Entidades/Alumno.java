@@ -144,7 +144,7 @@ public class Alumno extends Persona {
             if (tutor.getCurso() != null && tutor.getCurso().getNombre().equalsIgnoreCase(curso.getNombre())) {
                 this.cursos.add(curso);
                 this.tutor = tutor;
-                System.out.println("Entidades.Alumno " + getNombre() + " " + getApellidos() + " inscrito en el curso " + curso.getNombre());
+                System.out.println("Alumno " + getNombre() + " " + getApellidos() + " inscrito en el curso " + curso.getNombre());
                 System.out.println("Se ha asignado el profesor " + tutor.getNombre() + " " + tutor.getApellidos());
             } else {
                 System.out.println("No se ha podido asignar el tutor " + tutor.getNombre() + " " + tutor.getApellidos() + " porque no imparte ese curso.");
@@ -183,7 +183,7 @@ public class Alumno extends Persona {
 
                 this.tutor = null;
 
-                System.out.println("Entidades.Curso finalizado con éxito.");
+                System.out.println("Curso finalizado con éxito.");
             } catch (NumberFormatException e) {
                 System.out.println("Error: debes introducir un número válido para la evaluación.");
             }
